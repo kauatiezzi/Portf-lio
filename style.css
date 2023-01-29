@@ -385,6 +385,11 @@ nav.show div.icon-close {
 #button-projects {
   margin-top: 2rem;
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#button-projects2 {
+  margin-right: 10px;
 }
 
 /*====  FOOTER ============================ */
@@ -462,7 +467,6 @@ footer .social a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-
   .section {
     padding: 10rem 0;
   }

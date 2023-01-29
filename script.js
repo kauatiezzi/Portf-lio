@@ -22,10 +22,10 @@ function getApiGithub() {
               }</span>
               <p class="project-description">${item.description}</p>
               <div>
-                <a class="button" id="button-projects" href="${
+                <a class="button button-repository" id="button-projects" href="${
                   item.html_url
                 }" target="_blank">Repositório</a>
-                <a class="button" href="${
+                <a class="button button-repository1" id="button-projects2" href="${
                   item.homepage
                 }" target="_blank">Site do Projeto</a>
               </div>
@@ -70,22 +70,6 @@ function changeHeaderWhenScroll() {
     header.classList.remove("scroll")
   }
 }
-
-/* Testimonials carousel slider swiper */
-const swiper = new swiper(".swiper-container", {
-  slidesPerView: 1,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  mousewheel: true,
-  keyboard: true,
-  breakpoints: {
-    767: {
-      slidesPerView: 2,
-      setWrapperSize: true,
-    },
-  },
-})
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
 const scrollReveal = ScrollReveal({
